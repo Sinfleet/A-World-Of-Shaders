@@ -49,6 +49,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Ground_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 2038a37a87e1eff4fa5efd69c9d1312e, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -59,6 +63,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: 0d4d03055c4874e4fa025980fdee5b10, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -110,16 +118,22 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _Edge_Width: 0.057
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HeightBlend: 1.4
     - _Metallic: 0
+    - _MoveSpeed: 1
+    - _Noise_Scale: 1.7
+    - _Noise_Strength: 0.8
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Radius_Noise_Cutoff: 0.07
+    - _Radius_Noise_Offset: 0.006
     - _ReceiveShadows: 1
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
@@ -131,20 +145,21 @@ Material:
     - _TerrainScale: 50
     - _USETERRAINCOLOR: 1
     - _WindHeight: 0.8
-    - _WindIntensity: 0.2
-    - _WindNoiseSpeed: 0.6
+    - _WindIntensity: 0.24
+    - _WindNoiseSpeed: 1.2
     - _WindSpeed: 0.1
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.06755074, g: 0.6226415, b: 0.08941475, a: 1}
-    - _BottomColor: {r: 0.07058824, g: 0.36862746, b: 0.3529412, a: 0}
+    - _BottomColor: {r: 0.07058818, g: 0.3686274, b: 0.35294113, a: 0}
     - _Color: {r: 0.06755072, g: 0.62264144, b: 0.08941472, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FarColor: {r: 0.042586282, g: 0.3113207, b: 0.11587746, a: 0}
-    - _NearColor: {r: 0.32756716, g: 0.37735844, b: 0.055179738, a: 0}
+    - _FarColor: {r: 0.04258623, g: 0.31132063, b: 0.11587738, a: 0}
+    - _NearColor: {r: 0.3275671, g: 0.37735838, b: 0.055179685, a: 0}
     - _NearFarRange: {r: 3, g: 15, b: 0, a: 0}
-    - _ShadowColor: {r: 0.3207547, g: 0.17633085, b: 0.049928803, a: 0}
+    - _Outline_Color: {r: 0.59607846, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0.32075468, g: 0.1763308, b: 0.049928784, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _WindNoiseContrast: {r: 0.4, g: 0.8, b: 0, a: 0}
     - _WindNoiseScale: {r: 40, g: 100, b: 0, a: 0}
