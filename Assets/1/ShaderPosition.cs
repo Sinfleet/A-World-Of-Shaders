@@ -8,7 +8,7 @@ public class ShaderPosition : MonoBehaviour
 {
     public float radius = 25f;
     public float radiusMaxValue = 25f;
-    public float speed = 10f;
+    public float speed = 15f;
 
     private float targetValue = 25f;
 
